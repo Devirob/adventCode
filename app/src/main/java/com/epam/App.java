@@ -3,9 +3,7 @@
  */
 package com.epam;
 
-import com.epam.day1.CollectorOfFoodPortion;
-import com.epam.day1.DataWithFoodPackages;
-import com.epam.day1.DataWithFoodPackagesFromFile;
+import com.epam.day1.Statistics;
 
 public class App {
 
@@ -15,8 +13,9 @@ public class App {
 
     public static void main(String[] args) {
 
-        DataWithFoodPackages dataWithFoodPackages = new DataWithFoodPackagesFromFile();
-        CollectorOfFoodPortion collectorOfFoodPortion = new CollectorOfFoodPortion();
-        collectorOfFoodPortion.collectedPackegesOfFoodForReindeers(dataWithFoodPackages);
+        Statistics statistics = new Statistics();
+        System.out.println(statistics.getMaxValueOfCaloriesCarryingByOneReindeer());
+        System.out.println(statistics.getMaxValueOfCaloriesCarryingByThreeReindeer());
+
     }
 }

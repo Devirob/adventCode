@@ -7,7 +7,7 @@ public class CollectorOfFoodPortion {
 
     List<Reindeer> listOfReindeer = new ArrayList<>();
 
-    public List<Reindeer> collectedPackegesOfFoodForReindeers(DataWithFoodPackages dataWithFoodPackages) {
+    public List<Reindeer> getListOfReindeerWithFoodPackages(DataWithFoodPackages dataWithFoodPackages) {
 
         while (dataWithFoodPackages.hasNext()) {
 
