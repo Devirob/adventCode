@@ -558,3 +558,6 @@ gradle-app.setting
 *.hprof
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,maven,gradle,powershell,batch,intellij+all,intellij+iml,jetbrains+all,jetbrains+iml,java,git,python
+
+# Ignore Gradle build output directory
+build
